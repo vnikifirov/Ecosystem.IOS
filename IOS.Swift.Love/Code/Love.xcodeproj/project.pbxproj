@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BAB8BBD291816E6000C1DD1 /* IOS_Swift_LoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB8BBC291816E6000C1DD1 /* IOS_Swift_LoveApp.swift */; };
+		1B28F5A9292D2798005C2EC9 /* PaymentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B28F5A8292D2798005C2EC9 /* PaymentCard.swift */; };
+		1B442D12292B5567007B6136 /* Image in Resources */ = {isa = PBXBuildFile; fileRef = 1B442D11292B5566007B6136 /* Image */; };
+		1BA2F26D292CEC4300120992 /* ValintineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2F26C292CEC4300120992 /* ValintineCard.swift */; };
+		1BA2F26F292CED8B00120992 /* WelcomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2F26E292CED8B00120992 /* WelcomeCard.swift */; };
+		1BAB8BBD291816E6000C1DD1 /* Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB8BBC291816E6000C1DD1 /* Love.swift */; };
 		1BAB8BBF291816E6000C1DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB8BBE291816E6000C1DD1 /* ContentView.swift */; };
 		1BAB8BC1291816E8000C1DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB8BC0291816E8000C1DD1 /* Assets.xcassets */; };
 		1BAB8BC4291816E8000C1DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB8BC3291816E8000C1DD1 /* Preview Assets.xcassets */; };
@@ -34,14 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BAB8BB9291816E6000C1DD1 /* IOS.Swift.Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS.Swift.Love.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BAB8BBC291816E6000C1DD1 /* IOS_Swift_LoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_LoveApp.swift; sourceTree = "<group>"; };
+		1B28F5A8292D2798005C2EC9 /* PaymentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCard.swift; sourceTree = "<group>"; };
+		1B442D11292B5566007B6136 /* Image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Image; sourceTree = "<group>"; };
+		1BA2F26C292CEC4300120992 /* ValintineCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValintineCard.swift; sourceTree = "<group>"; };
+		1BA2F26E292CED8B00120992 /* WelcomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCard.swift; sourceTree = "<group>"; };
+		1BAB8BB9291816E6000C1DD1 /* Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Love.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAB8BBC291816E6000C1DD1 /* Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love.swift; sourceTree = "<group>"; };
 		1BAB8BBE291816E6000C1DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BAB8BC0291816E8000C1DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BAB8BC3291816E8000C1DD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1BAB8BC9291816E8000C1DD1 /* IOS.Swift.LoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS.Swift.LoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAB8BC9291816E8000C1DD1 /* LoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAB8BCD291816E8000C1DD1 /* IOS_Swift_LoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_LoveTests.swift; sourceTree = "<group>"; };
-		1BAB8BD3291816E8000C1DD1 /* IOS.Swift.LoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS.Swift.LoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAB8BD3291816E8000C1DD1 /* LoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAB8BD7291816E8000C1DD1 /* IOS_Swift_LoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_LoveUITests.swift; sourceTree = "<group>"; };
 		1BAB8BD9291816E8000C1DD1 /* IOS_Swift_LoveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_LoveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +79,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B88C761292B6FAD00F39361 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2F26C292CEC4300120992 /* ValintineCard.swift */,
+				1BA2F26E292CED8B00120992 /* WelcomeCard.swift */,
+				1B28F5A8292D2798005C2EC9 /* PaymentCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1BAB8BB0291816E6000C1DD1 = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +102,9 @@
 		1BAB8BBA291816E6000C1DD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BAB8BB9291816E6000C1DD1 /* IOS.Swift.Love.app */,
-				1BAB8BC9291816E8000C1DD1 /* IOS.Swift.LoveTests.xctest */,
-				1BAB8BD3291816E8000C1DD1 /* IOS.Swift.LoveUITests.xctest */,
+				1BAB8BB9291816E6000C1DD1 /* Love.app */,
+				1BAB8BC9291816E8000C1DD1 /* LoveTests.xctest */,
+				1BAB8BD3291816E8000C1DD1 /* LoveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +112,9 @@
 		1BAB8BBB291816E6000C1DD1 /* IOS.Swift.Love */ = {
 			isa = PBXGroup;
 			children = (
-				1BAB8BBC291816E6000C1DD1 /* IOS_Swift_LoveApp.swift */,
+				1B88C761292B6FAD00F39361 /* Models */,
+				1B442D11292B5566007B6136 /* Image */,
+				1BAB8BBC291816E6000C1DD1 /* Love.swift */,
 				1BAB8BBE291816E6000C1DD1 /* ContentView.swift */,
 				1BAB8BC0291816E8000C1DD1 /* Assets.xcassets */,
 				1BAB8BC2291816E8000C1DD1 /* Preview Content */,
@@ -130,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BAB8BB8291816E6000C1DD1 /* IOS.Swift.Love */ = {
+		1BAB8BB8291816E6000C1DD1 /* Love */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BAB8BDD291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "IOS.Swift.Love" */;
+			buildConfigurationList = 1BAB8BDD291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "Love" */;
 			buildPhases = (
 				1BAB8BB5291816E6000C1DD1 /* Sources */,
 				1BAB8BB6291816E6000C1DD1 /* Frameworks */,
@@ -142,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = IOS.Swift.Love;
+			name = Love;
 			productName = IOS.Swift.Love;
-			productReference = 1BAB8BB9291816E6000C1DD1 /* IOS.Swift.Love.app */;
+			productReference = 1BAB8BB9291816E6000C1DD1 /* Love.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1BAB8BC8291816E8000C1DD1 /* IOS.Swift.LoveTests */ = {
+		1BAB8BC8291816E8000C1DD1 /* LoveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BAB8BE0291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "IOS.Swift.LoveTests" */;
+			buildConfigurationList = 1BAB8BE0291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "LoveTests" */;
 			buildPhases = (
 				1BAB8BC5291816E8000C1DD1 /* Sources */,
 				1BAB8BC6291816E8000C1DD1 /* Frameworks */,
@@ -160,14 +180,14 @@
 			dependencies = (
 				1BAB8BCB291816E8000C1DD1 /* PBXTargetDependency */,
 			);
-			name = IOS.Swift.LoveTests;
+			name = LoveTests;
 			productName = IOS.Swift.LoveTests;
-			productReference = 1BAB8BC9291816E8000C1DD1 /* IOS.Swift.LoveTests.xctest */;
+			productReference = 1BAB8BC9291816E8000C1DD1 /* LoveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1BAB8BD2291816E8000C1DD1 /* IOS.Swift.LoveUITests */ = {
+		1BAB8BD2291816E8000C1DD1 /* LoveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BAB8BE3291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "IOS.Swift.LoveUITests" */;
+			buildConfigurationList = 1BAB8BE3291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "LoveUITests" */;
 			buildPhases = (
 				1BAB8BCF291816E8000C1DD1 /* Sources */,
 				1BAB8BD0291816E8000C1DD1 /* Frameworks */,
@@ -178,9 +198,9 @@
 			dependencies = (
 				1BAB8BD5291816E8000C1DD1 /* PBXTargetDependency */,
 			);
-			name = IOS.Swift.LoveUITests;
+			name = LoveUITests;
 			productName = IOS.Swift.LoveUITests;
-			productReference = 1BAB8BD3291816E8000C1DD1 /* IOS.Swift.LoveUITests.xctest */;
+			productReference = 1BAB8BD3291816E8000C1DD1 /* LoveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BAB8BB4291816E6000C1DD1 /* Build configuration list for PBXProject "IOS.Swift.Love" */;
+			buildConfigurationList = 1BAB8BB4291816E6000C1DD1 /* Build configuration list for PBXProject "Love" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BAB8BB8291816E6000C1DD1 /* IOS.Swift.Love */,
-				1BAB8BC8291816E8000C1DD1 /* IOS.Swift.LoveTests */,
-				1BAB8BD2291816E8000C1DD1 /* IOS.Swift.LoveUITests */,
+				1BAB8BB8291816E6000C1DD1 /* Love */,
+				1BAB8BC8291816E8000C1DD1 /* LoveTests */,
+				1BAB8BD2291816E8000C1DD1 /* LoveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B442D12292B5567007B6136 /* Image in Resources */,
 				1BAB8BC4291816E8000C1DD1 /* Preview Assets.xcassets in Resources */,
 				1BAB8BC1291816E8000C1DD1 /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BAB8BBF291816E6000C1DD1 /* ContentView.swift in Sources */,
-				1BAB8BBD291816E6000C1DD1 /* IOS_Swift_LoveApp.swift in Sources */,
+				1B28F5A9292D2798005C2EC9 /* PaymentCard.swift in Sources */,
+				1BA2F26D292CEC4300120992 /* ValintineCard.swift in Sources */,
+				1BA2F26F292CED8B00120992 /* WelcomeCard.swift in Sources */,
+				1BAB8BBD291816E6000C1DD1 /* Love.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +308,12 @@
 /* Begin PBXTargetDependency section */
 		1BAB8BCB291816E8000C1DD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BAB8BB8291816E6000C1DD1 /* IOS.Swift.Love */;
+			target = 1BAB8BB8291816E6000C1DD1 /* Love */;
 			targetProxy = 1BAB8BCA291816E8000C1DD1 /* PBXContainerItemProxy */;
 		};
 		1BAB8BD5291816E8000C1DD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BAB8BB8291816E6000C1DD1 /* IOS.Swift.Love */;
+			target = 1BAB8BB8291816E6000C1DD1 /* Love */;
 			targetProxy = 1BAB8BD4291816E8000C1DD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "nikifovadim.IOS-Swift-Love";
+				PRODUCT_BUNDLE_IDENTIFIER = nikifovadim.Love;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,7 +481,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "nikifovadim.IOS-Swift-Love";
+				PRODUCT_BUNDLE_IDENTIFIER = nikifovadim.Love;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +504,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS.Swift.Love.app/IOS.Swift.Love";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love.app/Love";
 			};
 			name = Debug;
 		};
@@ -499,7 +523,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS.Swift.Love.app/IOS.Swift.Love";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love.app/Love";
 			};
 			name = Release;
 		};
@@ -540,7 +564,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BAB8BB4291816E6000C1DD1 /* Build configuration list for PBXProject "IOS.Swift.Love" */ = {
+		1BAB8BB4291816E6000C1DD1 /* Build configuration list for PBXProject "Love" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BAB8BDB291816E8000C1DD1 /* Debug */,
@@ -549,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BAB8BDD291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "IOS.Swift.Love" */ = {
+		1BAB8BDD291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "Love" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BAB8BDE291816E8000C1DD1 /* Debug */,
@@ -558,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BAB8BE0291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "IOS.Swift.LoveTests" */ = {
+		1BAB8BE0291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "LoveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BAB8BE1291816E8000C1DD1 /* Debug */,
@@ -567,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BAB8BE3291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "IOS.Swift.LoveUITests" */ = {
+		1BAB8BE3291816E8000C1DD1 /* Build configuration list for PBXNativeTarget "LoveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BAB8BE4291816E8000C1DD1 /* Debug */,
