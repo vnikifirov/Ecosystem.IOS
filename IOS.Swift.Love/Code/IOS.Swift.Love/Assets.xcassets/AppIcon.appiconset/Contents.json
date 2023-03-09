@@ -6,6 +6,7 @@
       "size" : "20x20"
     },
     {
+      "filename" : "icon.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
@@ -86,6 +87,7 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "big-icon.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"

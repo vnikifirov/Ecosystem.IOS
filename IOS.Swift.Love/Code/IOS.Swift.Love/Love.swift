@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct IOS_Swift_LoveApp: App {
+struct Love: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
