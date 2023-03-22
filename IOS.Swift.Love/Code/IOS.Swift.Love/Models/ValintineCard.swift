@@ -11,8 +11,8 @@ import Foundation
 struct ValintineCard: View {
     @State public var Name: String
     @State private var size_min = 0.8
-    @State private var size_max = 1
-    @State private var animation = Animation.easeIn
+    @State private var size_max = 1.0
+    @State private var isAnimating = false
     
     var body: some View {
         VStack
@@ -22,11 +22,12 @@ struct ValintineCard: View {
                 .font(.system(size: 24, weight: .bold))
             Image("heart")
                 .resizable()
-                .aspectRatio(contentMode: .fit)
-                //.frame(width: 200, height: 200)
-                .scaleEffect(size_min)
-                .animation(animation
-                    .repeatForever(autoreverses: false))
+                .scaledToFit()
+                .scaleEffect(self.isAnimating ? size_min: size_max)
+                .animation(Animation.linear(duration: 1).repeatForever())
+                .onAppear {
+                    self.isAnimating = true
+                }
             Text("I love you 👩‍❤️‍💋‍👨❤️")
                 .padding()
                 //.font(.custom("New-York", size: 24))
@@ -41,7 +42,7 @@ struct ValintineCard_Previews: PreviewProvider {
     static var previews: some View {
         ZStack
         {
-            ValintineCard(Name: "Sue")
+            ValintineCard(Name: "Sue W.")
         }
         
     }
