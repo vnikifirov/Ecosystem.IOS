@@ -15,21 +15,33 @@ struct EightMarchCard: View {
     var body: some View {
         VStack
         {
-            imageView.animationImages = animation.AnimatedImages(for: "Images")
-            imageView.animationDuration = 0.9
-            imageView.animationRepeatCount = 2
-            imageView.image = imageView.animationImages?.first
-            imageView.startAnimating()
-            
+            image(imageView.image)
             Text("I love you 👩‍❤️‍💋‍👨❤️")
                 .padding()
                 //.font(.custom("New-York", size: 24))
                 .font(.system(size: 24, weight: .bold))
-                
+            ImageAnimator
         }
     }
 }
 
+// Bussines
+private let ImageAnimator = {
+    var images :NSMutableArray = []
+    for counter in 1...4
+    {
+
+        var image: String = "\(counter).png"
+        var obj_image  = UIImage(named: image)
+        images.add(obj_image)
+    }
+
+    self.imageView.animationImages = images;
+    self.imageView.animationDuration = 1.0
+    self.imageView.startAnimating()
+    let animation = UIImage.animatedImage()
+    self.myImageView.image = animation
+}()
 
 struct EightMarchCard_Previews: PreviewProvider {
     static var previews: some View {
